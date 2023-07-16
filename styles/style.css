@@ -126,6 +126,50 @@ main {
     font-weight: 700;
 }
 
+/* features section */
+
+.features {
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left:20px ;
+}
+ .feature-img img{
+    height: 90%;
+    margin-left: 90px;
+ }
+.ten-years-bedge{
+    border-radius: 8px;
+background: #FF900E;
+color: white;
+width: 342px;
+padding: 40px;
+text-align: center;
+position: relative ;
+bottom: 100px;
+
+}
+.ten-years-bedge h2{
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ten-years-bedge p{
+    font-size: 1.5rem;
+}
+
 /* facts Section */
 .facts-title {
     color: #131313;
@@ -173,7 +217,8 @@ main {
     font-weight: 700;
 
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -181,8 +226,21 @@ main {
     align-items: center;
 }
 
-.sponsors-img-container img{
+.sponsors-img-container img {
     width: 165px;
+}
+
+/* footer */
+.riaz {
+    color: #FF900E;
+}
+
+.footer-section {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 30px;
+    margin: 216px 240px;
 }
 
 /* responsive styles for mobiles  */
@@ -193,8 +251,9 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container ,
-    .sponsors-img-container {
+    .facts-card-container,
+    .sponsors-img-container ,
+    .features{
         flex-direction: column;
     }
 
@@ -221,13 +280,30 @@ main {
     .facts {
         margin: 20px;
     }
+
+    .footer-section {
+        color: #FFF;
+        background-color: #131313;
+        padding: 20px;
+        margin: 20px;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ten-years-bedge{
+        position: static;
+        max-width:300px ;
+    }
 }
 
 /* tablet or medioum devices */
 @media screen and (min-width:576px) and (max-width:960px) {
 
     nav,
-    .teams-container , .sponsors-img-container {
+    .teams-container,
+    .sponsors-img-container ,
+    .features {
         flex-direction: column;
     }
 
