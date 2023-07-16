@@ -1,0 +1,9 @@
+/* Worksans font From Gogle font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,500;1,700&family=Work+Sans:ital@1&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*  */
